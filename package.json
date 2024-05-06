@@ -1,0 +1,7 @@
+{
+  "name": "paper-ref",
+  "private": true,
+  "workspaces": [
+    "services/*"
+  ]
+}
