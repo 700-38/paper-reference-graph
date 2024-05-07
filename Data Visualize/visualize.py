@@ -16,14 +16,14 @@ def request_gephi(scopus_id,depth):
 
 # Streamlit app configuration
 st.set_page_config(
-    page_title="NebulaGraph Gephi Exchange",
+    page_title="Paper Reference Network Visualization",
     page_icon="🪄",
     layout="wide",
-    initial_sidebar_state="auto",
 )
 
 # Sidebar with Scopus ID input
 with st.sidebar:
+    st.header("Search Paper Reference")
     st.subheader("Enter Scopus ID")
     scopus_id = st.text_input(
         "scopus id", value="", key="scopus_id", label_visibility="collapsed"
