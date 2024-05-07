@@ -57,6 +57,21 @@ class RabbitMQConnection {
     );
 
   }
+
+  async write(queue: EQueue, message: any) {
+    try {
+      if (!this.channel) {
+        await this.connect();
+      }
+
+      this.channel.sendToQueue(queue, Buffer.from(JSON.stringify(message)));
+    } catch (error) {
+      console.error(error);
+      throw error;
+    }
+  }
+
+  
 }
 
 const mqConnection = new RabbitMQConnection();
