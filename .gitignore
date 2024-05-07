@@ -1,1 +1,3 @@
 Raw/*
+node_modules/*
+.env
