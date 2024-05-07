@@ -12,7 +12,8 @@ def request_gephi(scopus_id,depth):
     # Update the Gephi iframe source based on Scopus ID (assuming a specific URL format)
     global src
     data = requests.get("https://jsonplaceholder.typicode.com/todos/1").json()
-    src = f"https://gephi.org/gephi-lite/?file=https%3A%2F%2Fgexf.net%2Fdata%2Fhello-world.gexf&scopus_id={scopus_id}&depth={depth}"
+    # src = f"https://gephi.org/gephi-lite/?file=https%3A%2F%2Fgexf.net%2Fdata%2Fhello-world.gexf&scopus_id={scopus_id}&depth={depth}"
+    src = f"https://gephi.org/gephi-lite/?file=https%3A%2F%2Fgexf.net%2Fdata%2Fhello-world.gexf"
 
 # Streamlit app configuration
 st.set_page_config(
@@ -36,14 +37,19 @@ with st.sidebar:
 
     if st.button("Search", type="primary"):
         request_gephi(scopus_id,depth)
+        # st.rerun()
 
 # Display Gephi visualization
+st.subheader("Paper Reference Network Visualization")
+
 components.iframe(
     src=src,
     height=800,
     scrolling=True,
 )
 
-st.code(src)
+st.subheader("The most cited papers")
 
-st.subheader("")
+st.subheader("The most cited fields")
+
+st.subheader("The most cited years")
