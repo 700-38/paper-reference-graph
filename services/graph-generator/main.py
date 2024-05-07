@@ -1,21 +1,27 @@
-from kafka import KafkaConsumer
-kafka_broker = 'localhost:9092'
+import pika
+import os, sys
 
-consumer = KafkaConsumer(
-    'sample',
-    bootstrap_servers=[kafka_broker],
-    enable_auto_commit=True,
-    value_deserializer=lambda x: x.decode('utf-8'))
+def main():
+    connection = pika.BlockingConnection(pika.ConnectionParameters('some-rabbit.orb.local'))
+    channel = connection.channel()
+    channel.queue_declare(queue='generate-queue')
 
 
-while(True):
-    results = consumer.poll(timeout_ms=1000)
-    if len(results) == 0:
-        print('no message')
-    else:
-        for tp, messages in results.items():
-            print('topic = {} -- total {} messages'.format(tp.topic, len(messages)))
-            print('-----')
-            for message in messages:
-                print(message) 
-    print('######################')
+    def callback(ch, method, properties, body):
+        print(f" [x] Received {body}")
+
+
+    channel.basic_consume(queue='generate-queue',
+                        auto_ack=True,
+                        on_message_callback=callback)
+    print(' [*] Waiting for messages. To exit press CTRL+C')
+    channel.start_consuming()
+if __name__ == '__main__':
+    try:
+        main()
+    except KeyboardInterrupt:
+        print('Interrupted')
+        try:
+            sys.exit(0)
+        except SystemExit:
+            os._exit(0)

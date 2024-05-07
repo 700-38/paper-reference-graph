@@ -20,12 +20,18 @@ const app = new Elysia()
   .get("/ping", () => "pong")
   .get("/search", (req)=>{
     const search = req.query.search
-
   })
   .get("/query/:scopusId", (req) => {
     const paper = req.params.scopusId 
     sendPaperQuery(paper)
     return `You are looking for paper with ID: ${paper}`
+  })
+  .get("/generate/:scopusId", async () => {
+    // const redisStatus = await redis.ping()
+    // return {
+    //   redis: redisStatus
+    // }
+    
   })
 app.listen(3000)
 
