@@ -1,0 +1,21 @@
+{
+  "name": "api",
+  "version": "1.0.50",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bun run --watch src/index.ts"
+  },
+  "dependencies": {
+    "@types/ioredis": "^5.0.0",
+    "amqplib": "^0.10.4",
+    "elysia": "latest",
+    "ioredis": "^5.4.1",
+    "kafkajs": "^2.2.4"
+  },
+  "devDependencies": {
+    "@types/amqplib": "^0.10.5",
+    "bun-types": "latest"
+  },
+  "module": "src/index.js"
+}
