@@ -72,7 +72,7 @@ const app = new Elysia()
   )
   .get("/generate/:scopusId", (req) => {
     const paper = req.params.scopusId
-    const depth = parseInt(req.query.depth ?? "") || 5
+    const depth = parseInt(req.query.depth ?? "") || 10
     sendPaperQuery(paper, depth)
     // queue.sendToQueue(EQueue.DBWRITE_QUEUE, { scopusId: paper, depth })
     

@@ -19,13 +19,11 @@ const handleIncomingQuery = async (cmsg: ConsumeMessage, ch: Channel) => {
     const { scopusId, depth, parentNode } = parsedMessage
     if (!scopusId) {
       console.error(`Invalid Scopus ID`)
-      return 
-      ch.ack(cmsg)
+      return ch.ack(cmsg)
     }
     const status = parseInt((await redis.get(scopusId)) ?? "-1")
     if (status >= depth) {
-      return 
-      ch.ack(cmsg)
+      return ch.ack(cmsg)
     } else if (status > 0) {
       try {
         const currentEndNode: any = await graphRedis.call(
@@ -51,21 +49,18 @@ const handleIncomingQuery = async (cmsg: ConsumeMessage, ch: Channel) => {
     const paperData = await getPaperAbstract(scopusId)
     if (!paperData) {
       console.error(`Error while fetching paper data`)
-      return 
-      ch.ack(cmsg)
+      return ch.ack(cmsg)
     }
     if (paperData === EScopusError.NOT_FOUND) {
-      return 
-      ch.ack(cmsg)
+      return ch.ack(cmsg)
     } else if (paperData === EScopusError.TOO_MANY_REQUESTS) {
-      mqConnection.write(EQueue.QUERY_QUEUE, {
-        parentNode: parentNode,
-        scopusId: scopusId,
-        depth: depth,
-      })
+      // mqConnection.write(EQueue.QUERY_QUEUE, {
+      //   parentNode: parentNode,
+      //   scopusId: scopusId,
+      //   depth: depth,
+      // })
 
-      return 
-      ch.nack(cmsg)
+      return ch.nack(cmsg)
     }
     // console.log(paperData["abstracts-retrieval-response"].affiliation)
     if (!Array.isArray(paperData["abstracts-retrieval-response"].affiliation)) {
@@ -109,7 +104,7 @@ const handleIncomingQuery = async (cmsg: ConsumeMessage, ch: Channel) => {
         paperNode.date
       }"
       `
-      console.log(querystr)
+      // console.log(querystr)
       graphRedis.call("GRAPH.QUERY", "ds-paper", querystr)
     }
     if (depth > 1) {
@@ -194,7 +189,7 @@ const handleIncomingQuery = async (cmsg: ConsumeMessage, ch: Channel) => {
       const querystr2 = `
       MATCH (a: Paper {scopusId: "${parentNode}"}), (b: Paper {scopusId: "${scopusId}"})
       CREATE (a)-[:reference]->(b)`
-      console.log(querystr2)
+      // console.log(querystr2)
       graphRedis.call("GRAPH.QUERY", "ds-paper", querystr2)
       redis.set(scopusId, depth)
     }
@@ -205,8 +200,7 @@ const handleIncomingQuery = async (cmsg: ConsumeMessage, ch: Channel) => {
     console.log(JSON.stringify(error))
     console.error(`Error While Parsing the message`)
   }
-  return 
-  ch.ack(cmsg)
+  return ch.ack(cmsg)
 }
 
 const listen = async () => {

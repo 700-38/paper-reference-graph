@@ -1,8 +1,8 @@
 import client from "amqplib";
-import type { Connection, Channel } from "amqplib";
+import type { Connection, Channel, ConsumeMessage } from "amqplib";
 import { rmqUser, rmqPass, rmqhost, EQueue } from "@config/amqp";
 
-type HandlerCB = (msg: string) => Promise<any>;
+type HandlerCB = (msg: ConsumeMessage, ch: Channel) => Promise<any>;
 
 
 class RabbitMQConnection {
@@ -47,12 +47,13 @@ class RabbitMQConnection {
           if (!msg) {
             return console.error(`Invalid incoming message`);
           }
-          await handleIncomingNotification(msg?.content?.toString())
-          this.channel.ack(msg);
+          await handleIncomingNotification(msg, this.channel);
+          // this.channel.ack(msg);
         }
       },
       {
-        noAck: false,
+        noAck: true,
+        // ack: true,
       }
     );
 
