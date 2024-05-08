@@ -45,7 +45,7 @@ social_graph.add_edge( Edge(users["Jun"], "friends", users["Noor"]) )
 social_graph.add_edge( Edge(users["Alex"], "friends", users["Noor"]) )
 # social_graph.add_edge( Edge(users["Noor"], "friends", users["Alex"]) )
 
-social_graph.add_edge( Edge(users["Alex"], "live_in", city["Tokyo"]) )
+social_graph.add_edge( Edge(users["Alex"], "reference", city["Tokyo"]) )
 social_graph.add_edge( Edge(users["Sara"], "live_in", city["Bangkok"]) )
 social_graph.add_edge( Edge(users["Liam"], "live_in", city["New York"]) )
 social_graph.add_edge( Edge(users["Emma"], "live_in", city["Bangkok"]) )
@@ -54,7 +54,7 @@ social_graph.add_edge( Edge(users["Taylor"], "live_in", city["New York"]) )
 social_graph.add_edge( Edge(users["Noor"], "live_in", city["Bangkok"]) )
 social_graph.add_edge( Edge(users["Jun"], "live_in", city["Tokyo"]))
 social_graph.add_edge( Edge(users["Alex"], "live_in", city["Tokyo"]))
-
+CREATE (:Paper {scopusId: "84876224196", title: "A new methodology for evaluating the safe temperature in continuous welded rail tracks", field: "Civil and Structural Engineering,Building and Construction,Aerospace Engineering,Ocean Engineering,Mechanical Engineering,Applied Mathematics", country: "Portugal", city: "Porto", author: "Carvalho J.,Delgado J.,Calcada R.,Delgado R.", date: "2013-03-01")
 
 # Create the graph in the database
 social_graph.commit()

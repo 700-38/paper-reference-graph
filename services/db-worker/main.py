@@ -1,6 +1,6 @@
 import pika 
 import os, sys
-
+import json
 def main():
     connection = pika.BlockingConnection(pika.ConnectionParameters('some-rabbit.orb.local'))
     channel = connection.channel()
@@ -8,11 +8,11 @@ def main():
 
 
     def callback(ch, method, properties, body):
-        
-        print(f" [x] Received {body}")
+        data = json.loads(body)
+        print(f" [x] Received {data}")
 
 
-    channel.basic_consume(queue='generate-queue',
+    channel.basic_consume(queue='dbwrite-queue',
                         auto_ack=True,
                         on_message_callback=callback)
     print(' [*] Waiting for messages. To exit press CTRL+C')

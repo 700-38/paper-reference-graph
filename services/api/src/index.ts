@@ -74,6 +74,8 @@ const app = new Elysia()
     const paper = req.params.scopusId
     const depth = parseInt(req.query.depth ?? "") || 5
     sendPaperQuery(paper, depth)
+    // queue.sendToQueue(EQueue.DBWRITE_QUEUE, { scopusId: paper, depth })
+    
     return `You are looking for paper with ID: ${paper}`
   })
   .get("/status/:scopusId", async (req) => {
