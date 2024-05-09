@@ -3,13 +3,13 @@ import Redis from "ioredis"
 import type { Connection, Channel, ConsumeMessage } from "amqplib"
 import { EScopusError, getPaperAbstract } from "./lib/scopus"
 import { EQueue } from "@config/amqp"
-const redis = new Redis(6379, "ds-redis.orb.local")
+const redis = new Redis({port:6379, host:"main.thegoose.work", password:"noobspark"})
 // const graphRedis = new Redis({
-//   host: "ds-redis.orb.local",
+//   host: "main.thegoose.work",
 //   port: 6379,
 //   db: 1,
 // })
-const graphRedis = new Redis(6379, "ds-redis.orb.local")
+const graphRedis = new Redis({port:6379, host:"main.thegoose.work", password:"noobspark"})
 // const grpahRed
 
 const handleIncomingQuery = async (cmsg: ConsumeMessage, ch: Channel) => {

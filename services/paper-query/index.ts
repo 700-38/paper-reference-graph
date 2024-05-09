@@ -3,13 +3,30 @@ import Redis from "ioredis"
 import type { Connection, Channel, ConsumeMessage } from "amqplib"
 import { EScopusError, getPaperAbstract } from "./lib/scopus"
 import { EQueue } from "@config/amqp"
-const redis = new Redis(6379, "ds-redis.orb.local")
+import { sleep } from "bun"
+const redis = new Redis({
+  port: 6379,
+  host: "main.thegoose.work",
+  password: "noobspark",
+  showFriendlyErrorStack: true,
+})
+redis.on("error", function (error) {
+  console.log(error)
+})
+// setInterval(function () {
+//   redis.ping(console.log);
+// }, 1000);
+
 // const graphRedis = new Redis({
-//   host: "ds-redis.orb.local",
+//   host: "main.thegoose.work",
 //   port: 6379,
 //   db: 1,
 // })
-const graphRedis = new Redis(6379, "ds-redis.orb.local")
+const graphRedis = new Redis("redis://:noobspark@main.thegoose.work:6379/0")
+
+// sleep(5000).then(()=>{
+//   console.log(redis.status)
+// })
 // const grpahRed
 
 const handleIncomingQuery = async (cmsg: ConsumeMessage, ch: Channel) => {
@@ -19,12 +36,13 @@ const handleIncomingQuery = async (cmsg: ConsumeMessage, ch: Channel) => {
     const { scopusId, depth, parentNode } = parsedMessage
     if (!scopusId) {
       console.error(`Invalid Scopus ID`)
-      return 
+      return
       ch.ack(cmsg)
     }
     const status = parseInt((await redis.get(scopusId)) ?? "-1")
+    console.log(scopusId, status, depth)
     if (status >= depth) {
-      return 
+      return
       ch.ack(cmsg)
     } else if (status > 0) {
       try {
@@ -51,11 +69,11 @@ const handleIncomingQuery = async (cmsg: ConsumeMessage, ch: Channel) => {
     const paperData = await getPaperAbstract(scopusId)
     if (!paperData) {
       console.error(`Error while fetching paper data`)
-      return 
+      return
       ch.ack(cmsg)
     }
     if (paperData === EScopusError.NOT_FOUND) {
-      return 
+      return
       ch.ack(cmsg)
     } else if (paperData === EScopusError.TOO_MANY_REQUESTS) {
       mqConnection.write(EQueue.QUERY_QUEUE, {
@@ -64,7 +82,7 @@ const handleIncomingQuery = async (cmsg: ConsumeMessage, ch: Channel) => {
         depth: depth,
       })
 
-      return 
+      return
       ch.nack(cmsg)
     }
     // console.log(paperData["abstracts-retrieval-response"].affiliation)
@@ -205,7 +223,7 @@ const handleIncomingQuery = async (cmsg: ConsumeMessage, ch: Channel) => {
     console.log(JSON.stringify(error))
     console.error(`Error While Parsing the message`)
   }
-  return 
+  return
   ch.ack(cmsg)
 }
 

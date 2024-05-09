@@ -1,6 +1,6 @@
 export const rmqUser = "guest"
 export const rmqPass = "guest"
-export const rmqhost = "some-rabbit.orb.local"
+export const rmqhost = "main.thegoose.work"
 export enum EQueue {
   QUERY_QUEUE = "query-queue",
   GENERATE_QUEUE = "generate-queue",

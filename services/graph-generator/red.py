@@ -3,7 +3,7 @@ from redis.commands.graph.edge import Edge
 from redis.commands.graph.node import Node
 
 # Connect to a database
-r = redis.Redis(host="ds-redis.orb.local", port="6379")
+r = redis.Redis(host="main.thegoose.work", port="6379")
 
 # Create nodes that represent users
 users = {   

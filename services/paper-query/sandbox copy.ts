@@ -1,6 +1,6 @@
 // import Redis from "ioredis"
 import {createClient} from "redis"
-const redis =createClient({url:"redis://ds-redis.orb.local:6379"})
+const redis =createClient({url:"redis://main.thegoose.work:6379"})
 await redis.connect()
 // redis.graph.query
 redis.graph.query('graph', `

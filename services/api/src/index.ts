@@ -5,8 +5,26 @@ import axios from "axios"
 import queue from "./queue"
 import { EQueue } from "@config/amqp"
 import { SearchEntry, TSearchResults } from "./search"
+import { sleep } from "bun"
 
-const redis = new Redis(6379, "ds-redis.orb.local")
+const redis = new Redis({
+  port: 6379,
+  username: "default",
+  host: "main.thegoose.work",
+  password: "noobspark",
+  showFriendlyErrorStack: (process.env.NODE_ENV !== "production"),
+})
+redis.on("error", function (error) {
+  console.log(error)
+})
+// sleep(5000).then(()=>{
+//   console.log(redis.status)
+// })
+// setInterval(function () {
+//   redis.ping(console.log);
+// }, 1000);
+
+redis.set("foo", "bar")
 // const queue = new mqConnection()
 queue.connect()
 
@@ -70,14 +88,23 @@ const app = new Elysia()
       }),
     }
   )
-  .get("/generate/:scopusId", (req) => {
-    const paper = req.params.scopusId
-    const depth = parseInt(req.query.depth ?? "") || 10
-    sendPaperQuery(paper, depth)
-    // queue.sendToQueue(EQueue.DBWRITE_QUEUE, { scopusId: paper, depth })
-    
-    return `You are looking for paper with ID: ${paper}`
-  })
+  .get(
+    "/generate/:scopusId",
+    (req) => {
+      const paper = req.params.scopusId
+      const depth = parseInt(req.query.depth ?? "") || 10
+      console.log(paper, depth)
+      sendPaperQuery(paper, depth)
+      // queue.sendToQueue(EQueue.DBWRITE_QUEUE, { scopusId: paper, depth })
+
+      return `You are looking for paper with ID: ${paper}`
+    },
+    {
+      query: t.Object({
+        depth: t.String(),
+      }),
+    }
+  )
   .get("/status/:scopusId", async (req) => {
     redis.get(req.params.scopusId)
     return "Status"
@@ -87,3 +114,4 @@ app.listen(3000)
 console.log(
   `🦊 Elysia is running at ${app.server?.hostname}:${app.server?.port}`
 )
+
