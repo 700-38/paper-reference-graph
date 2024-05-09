@@ -34,6 +34,7 @@ class RabbitMQConnection {
       if (!this.channel) {
         await this.connect();
       }
+      console.log(`📤 Sending message to ${queue}`);
 
       this.channel.sendToQueue(queue, Buffer.from(JSON.stringify(message)));
     } catch (error) {
