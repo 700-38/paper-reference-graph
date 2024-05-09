@@ -1,5 +1,8 @@
 import sys
 import time
+import pandas as pd
+import pydeck as pdk
+import altair as alt
 import requests
 import streamlit as st
 import streamlit.components.v1 as components
@@ -122,3 +125,53 @@ st.subheader("The Most Cited Papers")
 st.subheader("The Most Cited Fields")
 
 st.subheader("The Most Cited Years")
+
+################################################################
+# @st.cache_data
+# def load_data(url):
+#     data = pd.read_csv(url)
+#     return data
+
+# df = load_data('./mockdat.csv')
+
+# df['one']=1
+# print(df.head())
+# print(df.shape)
+
+# #map
+# def color(rain):
+#     return [int(255*(1-rain)), int(255*rain), 0, 150]
+
+# df_map = df.groupby(['la', 'long'])['one'].sum().reset_index()
+# print(df_map.head())
+# print(df_map.shape)
+# df_map['color'] = df_map['one'].apply(lambda x: color(x))
+
+# st.write("### Map")
+# layer = pdk.Layer(
+#     'ScatterplotLayer',
+#     data=df_map,
+#     get_position=['long', 'la'],
+#     get_radius='one * 30000',
+#     get_fill_color='color',
+# )
+# view_state = pdk.ViewState(latitude=df['la'].mean(), longitude=df['long'].mean(), zoom=1)
+# st.pydeck_chart(pdk.Deck(layers=[layer], initial_view_state=view_state))
+
+# def authorcount(author):
+#     return len(author.strip(',').split(','))
+    
+
+# c1, c2 = st.columns(2)
+
+# with c1:
+#     # Show paper count
+#     st.write("### Paper Count")
+#     paper_count = df.shape[0]  # Total number of papers
+#     st.write(f"Number of Papers: {paper_count}")
+
+# with c2:
+#     # Show author count
+#     st.write("### Author Count")
+#     author_count = df['author'].apply(authorcount).sum()  # Total number of authors
+#     st.write(f"Number of Authors: {author_count}")
