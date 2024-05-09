@@ -10,7 +10,7 @@ import { sleep } from "bun"
 const redis = new Redis({
   port: 6379,
   username: "default",
-  host: "main.thegoose.work",
+  host: "171.6.103.154",
   password: "noobspark",
   showFriendlyErrorStack: (process.env.NODE_ENV !== "production"),
 })
@@ -30,6 +30,10 @@ queue.connect()
 
 const sendPaperQuery = async (scopusId: string, depth: number) => {
   queue.sendToQueue(EQueue.QUERY_QUEUE, { scopusId, depth })
+}
+
+const sendGenerateTask = async (scopusId: string, depth: number) => {
+  queue.sendToQueue(EQueue.GENERATE_QUEUE, { scopusId, depth })
 }
 
 const searchPaper = async (search: string): Promise<SearchEntry[] | null> => {
@@ -106,8 +110,31 @@ const app = new Elysia()
     }
   )
   .get("/status/:scopusId", async (req) => {
-    redis.get(req.params.scopusId)
-    return "Status"
+    const depth = parseInt(req.query.depth ?? "") || 10
+    const statusKey = `status:${req.params.scopusId}:${depth}`
+    const cachedStatus = await redis.get(statusKey)
+    if (cachedStatus === "OK") {
+      const cachedData = await redis.get(`data:${req.params.scopusId}:${depth}`)
+      return cachedData
+    } else if (cachedStatus === "GENERATING") {
+      return "Generating"
+    } else {
+      const queryStatus: any = await redis.call("GRAPH.QUERY", "ds-paper", `
+        MATCH (startNode: Paper {scopusId: '${req.params.scopusId}'})-[:reference*${depth}]->(otherNode)
+        RETURN count(*) > 0 AS has_connection
+      `)
+      
+      if (queryStatus?.[1]?.[0]?.[0] === "true") {
+        sendGenerateTask(req.params.scopusId, depth)
+        redis.set(statusKey, "GENERATING")
+        return "Generating"
+      } 
+    }
+    return "Querying"
+  }, {
+    query: t.Object({
+      depth: t.String(),
+    }),
   })
 app.listen(3000)
 

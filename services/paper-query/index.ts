@@ -6,7 +6,7 @@ import { EQueue } from "@config/amqp"
 import { sleep } from "bun"
 const redis = new Redis({
   port: 6379,
-  host: "main.thegoose.work",
+  host: "171.6.103.154",
   password: "noobspark",
   showFriendlyErrorStack: true,
 })
@@ -22,7 +22,7 @@ redis.on("error", function (error) {
 //   port: 6379,
 //   db: 1,
 // })
-const graphRedis = new Redis("redis://:noobspark@main.thegoose.work:6379/0")
+const graphRedis = new Redis("redis://:noobspark@171.6.103.154:6379/0")
 
 // sleep(5000).then(()=>{
 //   console.log(redis.status)
@@ -116,6 +116,17 @@ const handleIncomingQuery = async (cmsg: ConsumeMessage, ch: Channel) => {
       const querystr = `
       MERGE (a: Paper {scopusId: "${scopusId}"})
       ON CREATE SET a.title = "${
+        paperNode.title
+      }", a.field = "${paperNode.field.join(
+        ","
+      )}", a.country = "${paperNode.country.join(
+        ","
+      )}", a.city = "${paperNode.city.join(
+        ","
+      )}", a.author = "${paperNode.author.join(",")}", a.date = "${
+        paperNode.date
+      }"
+      ON MATCH SET a.title = "${
         paperNode.title
       }", a.field = "${paperNode.field.join(
         ","
