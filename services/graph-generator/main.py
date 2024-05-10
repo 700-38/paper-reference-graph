@@ -44,7 +44,14 @@ def main():
         result_set = redis_graph.query(q).result_set
         csv = 'scopusId,title,field,country,city,author,date,indegree\n'
         for row in result_set:
-            csv += ','.join(map(str, row)) + '\n'
+            formatted_row = []
+            for item in row:
+                item_str = str(item).replace('"', '""')
+                if ',' in item_str or '"' in item_str:
+                    item_str = f'"{item_str}"'
+                formatted_row.append(item_str)
+            new_row = ','.join(formatted_row) + '\n'
+            csv += new_row
         
         with open(f"{scopusId}-{depth}.csv", 'w') as f:
             f.write(csv)
