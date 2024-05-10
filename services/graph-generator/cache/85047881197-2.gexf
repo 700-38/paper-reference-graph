@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2024-05-10">
+    <creator>NetworkX 3.3</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="depth" type="string" />
+      <attribute id="1" title="title" type="string" />
+    </attributes>
+    <nodes>
+      <node id="85037659942" label="85037659942">
+        <viz:color r="7" g="87" b="91" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Measurements of tt¯ cross sections in association with b jets and inclusive jets and their ratio using dilepton final states in pp collisions at s=13TeV" />
+        </attvalues>
+      </node>
+      <node id="85047881197" label="85047881197">
+        <viz:color r="7" g="87" b="91" a="0.8" />
+        <viz:size value="2.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Identification of heavy-flavour jets with the CMS detector in pp collisions at 13 TeV" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="85047881197" target="85037659942" id="0" />
+    </edges>
+  </graph>
+</gexf>

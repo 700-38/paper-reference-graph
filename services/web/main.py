@@ -94,9 +94,9 @@ def load_data(url):
     data = pd.read_csv(url)
     return data
 
-csv_file = './mockdat.csv'
-df_csv = load_data(csv_file)
-df_csv['year']=df_csv['date'].apply(lambda x: x.split('-')[0])
+# csv_file = './mockdat.csv'
+# df_csv = load_data(csv_file)
+# df_csv['year']=df_csv['date'].apply(lambda x: x.split('-')[0])
 
 def request_stat_csv(data):
     filtertop10_paper = pd.DataFrame(data[["scopusId","title","indegree"]].sort_values(by='indegree',ascending=False).head(10))

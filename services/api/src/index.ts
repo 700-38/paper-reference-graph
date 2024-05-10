@@ -134,20 +134,15 @@ const app = new Elysia()
       const cachedStatus = await redis.get(statusKey);
       console.log("cachedStatus", cachedStatus);
       if (cachedStatus === "OK") {
-        // const cachedData = await redis.get(
-        //   `data:${req.params.scopusId}:${depth}`
-        // );
-        // return cachedData;
-        return {
-          status: "OK",
-          gexf: `https://cdn.kuranasaki.work/ds-proj/${req.params.scopusId}-${depth}.gexf`,
-          csv: `https://cdn.kuranasaki.work/ds-proj/${req.params.scopusId}-${depth}.csv`,
-        }
-      }
-      else if (cachedStatus === "GENERATING") {
-        return "Generating"
-      }
-      else {
+        const cachedData = await redis.get(
+          `data:${req.params.scopusId}:${depth}`
+        );
+        return cachedData;
+      } else if (cachedStatus === "GENERATING") {
+        return "Generating";
+      } else if (cachedStatus === "ERROR") {
+        return "Error";
+      } else {
         const queryStatus: any = await redis.call(
           "GRAPH.QUERY",
           "ds-paper",
@@ -159,7 +154,7 @@ const app = new Elysia()
         console.log(queryStatus?.[1]?.[0]?.[0]);
         if (queryStatus?.[1]?.[0]?.[0] === "true") {
           sendGenerateTask(req.params.scopusId, depth);
-          redis.set(statusKey, "GENERATING");
+          // redis.set(statusKey, "GENERATING");
           return "Generating";
         }
       }
