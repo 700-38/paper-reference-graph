@@ -2,11 +2,11 @@ import mqConnection from "./lib/queue"
 import Redis from "ioredis"
 import type { Connection, Channel, ConsumeMessage } from "amqplib"
 import { EScopusError, getPaperAbstract } from "./lib/scopus"
-import { EQueue } from "@config/amqp"
+import { EQueue, redisHost } from "@config/amqp"
 import { sleep } from "bun"
 const redis = new Redis({
   port: 6379,
-  host: "171.6.103.154",
+  host: redisHost,
   password: "noobspark",
   showFriendlyErrorStack: true,
 })
@@ -22,7 +22,7 @@ redis.on("error", function (error) {
 //   port: 6379,
 //   db: 1,
 // })
-const graphRedis = new Redis("redis://:noobspark@171.6.103.154:6379/0")
+const graphRedis = new Redis(`redis://:noobspark@${redisHost}:6379/0`)
 
 // sleep(5000).then(()=>{
 //   console.log(redis.status)

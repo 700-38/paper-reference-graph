@@ -6,7 +6,7 @@ import boto3
 import redis
 from redisgraph import Graph, Node, Edge
 PASSWORD = 'noobspark'
-r = redis.Redis(host='171.6.103.154', port=6379, password=PASSWORD, decode_responses=True)
+r = redis.Redis(host='main.thegoose.work', port=6379, password=PASSWORD, decode_responses=True)
 redis_graph = Graph('ds-paper', r)
 token = 'vPg_oQQkpbmEGyNzG4FwPpamWnc_yBCxy-D1LU2C'
 

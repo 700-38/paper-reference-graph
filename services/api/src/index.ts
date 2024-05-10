@@ -3,14 +3,14 @@ import { swagger } from "@elysiajs/swagger";
 import Redis from "ioredis";
 import axios from "axios";
 import queue from "./queue";
-import { EQueue } from "@config/amqp";
+import { EQueue, redisHost } from "@config/amqp";
 import { SearchEntry, TSearchResults } from "./search";
 import { sleep } from "bun";
 
 const redis = new Redis({
   port: 6379,
   username: "default",
-  host: "171.6.103.154",
+  host: redisHost,
   password: "noobspark",
   showFriendlyErrorStack: process.env.NODE_ENV !== "production",
 });
@@ -20,7 +20,7 @@ redis.on("error", function (error) {
 // sleep(5000).then(()=>{
 //   console.log(redis.status)
 // })
-// setInterval(function () {
+// var rdping = setInterval(function () {
 //   redis.ping(console.log);
 // }, 1000);
 
