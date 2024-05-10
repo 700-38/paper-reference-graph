@@ -5,7 +5,7 @@ import os
 class CoordinatesGenerator:
     def __init__(self):
         self.filepath = 'city_coordinates.json'
-        self.key = "starburst_stream"
+        self.key = "superpeem"
         self.cache = self.load_cache()
 
     def load_cache(self):
