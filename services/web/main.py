@@ -6,12 +6,16 @@ import altair as alt
 import requests
 import streamlit as st
 import streamlit.components.v1 as components
+from get_coordinates import CoordinatesGenerator
+
+gen = CoordinatesGenerator()
 
 sys.stdout.reconfigure(encoding="utf-8")
 sys.stdin.reconfigure(encoding="utf-8")
 
 src = "https://gephi.org/gephi-lite/"
 search_keyword_result = []
+search_network_graph = []
 
 loading = False
 show_keyword_result = False
@@ -159,10 +163,17 @@ else:
             height=800,
             scrolling=True,
         )
+            
+            df_map = pd.DataFrame(columns=['scopusId', 'latitude', 'longitude'])
+            for r in search_network_graph:
+                for city in r['city'].split(','):
+                    coordinates = gen.get_coordinates(city)
+                    if coordinates:
+                        for r in search_network_graph:
+                            if coordinates:
+                                new_record = {'scopusId': r['scopusId'], 'latitude': coordinates[0], 'longitude': coordinates[1]}
+                                df_map = df_map.append(new_record, ignore_index=True)
         
-
-
-
 ################################################################
 # @st.cache_data
 # def load_data(url):
