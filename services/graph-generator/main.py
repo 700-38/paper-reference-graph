@@ -6,7 +6,7 @@ import boto3
 import redis
 from redisgraph import Graph, Node, Edge
 PASSWORD = 'noobspark'
-r = redis.Redis(host='171.6.103.154', port=6379, password=PASSWORD, decode_responses=True)
+r = redis.Redis(host='171.6.111.197', port=6379, password=PASSWORD, decode_responses=True)
 redis_graph = Graph('ds-paper', r)
 token = 'vPg_oQQkpbmEGyNzG4FwPpamWnc_yBCxy-D1LU2C'
 
@@ -19,7 +19,7 @@ s3 = boto3.client(
 )
 
 def main():
-    connection = pika.BlockingConnection(pika.ConnectionParameters('171.6.103.154'))
+    connection = pika.BlockingConnection(pika.ConnectionParameters('171.6.111.197'))
     channel = connection.channel()
     channel.queue_declare(queue='generate-queue')
 
@@ -30,10 +30,10 @@ def main():
         depth = data.get('depth')
         print(f" Generating Gephi for {scopusId} with depth {depth}")
         createGephi(scopus_id=scopusId, depth=depth)
-        filename = f"{scopusId}-{depth}.gexf"
-        with open(filename, 'rb') as f:
+        filename = f"{scopusId}-{depth}"
+        with open("cache/"+filename+".gexf", 'rb') as f:
             file_content = f.read()
-            s3.upload_fileobj(io.BytesIO(file_content), "kuranasaki-01", filename)
+            s3.upload_fileobj(io.BytesIO(file_content), "kuranasaki-01", "ds-proj/"+filename+".gexf")
         ###################################################
         ## GENEARTE CSV OR JSON FILE HERE AND UPLOAD IT ###
         ###################################################
@@ -46,14 +46,14 @@ def main():
         for row in result_set:
             csv += ','.join(map(str, row)) + '\n'
         
-        with open(f"{scopusId}-{depth}.csv", 'w') as f:
-            f.write(csv)
+        # with open(f"{scopusId}-{depth}.csv", 'w') as f:
+        #     f.write(csv)
+        csv_byte = csv.encode('utf-8')
 
-        with open(f"{scopusId}-{depth}.csv", 'rb') as f:
-            file_content = f.read()
-            s3.upload_fileobj(io.BytesIO(file_content), "kuranasaki-01", f"{scopusId}-{depth}.csv")
+        # with open(f"{scopusId}-{depth}.csv", 'rb') as f:
+        s3.upload_fileobj(io.BytesIO(csv_byte), "kuranasaki-01", "ds-proj/"+filename+".csv")
 
-        # r.set(f'status:{scopusId}:{depth}', 'OK')
+        r.set(f'status:{scopusId}:{depth}', 'OK')
         # r.set(f'data:{scopusId}:{depth}'," ก้อน json string ขอองลิงก์เปิดไฟล์")
             
             

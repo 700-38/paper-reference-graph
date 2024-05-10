@@ -10,7 +10,7 @@ import { sleep } from "bun";
 const redis = new Redis({
   port: 6379,
   username: "default",
-  host: "171.6.103.154",
+  host: "171.6.111.197",
   password: "noobspark",
   showFriendlyErrorStack: process.env.NODE_ENV !== "production",
 });
@@ -134,10 +134,15 @@ const app = new Elysia()
       const cachedStatus = await redis.get(statusKey);
       console.log("cachedStatus", cachedStatus);
       if (cachedStatus === "OK") {
-        const cachedData = await redis.get(
-          `data:${req.params.scopusId}:${depth}`
-        );
-        return cachedData;
+        // const cachedData = await redis.get(
+        //   `data:${req.params.scopusId}:${depth}`
+        // );
+        // return cachedData;
+        return {
+          status: "OK",
+          gexf: `https://cdn.kuranasaki.work/ds-proj/${req.params.scopusId}-${depth}.gexf`,
+          csv: `https://cdn.kuranasaki.work/ds-proj/${req.params.scopusId}-${depth}.csv`,
+        }
       }
       // else if (cachedStatus === "GENERATING") {
       //   return "Generating"
