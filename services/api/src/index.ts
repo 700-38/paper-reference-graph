@@ -144,9 +144,9 @@ const app = new Elysia()
           csv: `https://cdn.kuranasaki.work/ds-proj/${req.params.scopusId}-${depth}.csv`,
         }
       }
-      // else if (cachedStatus === "GENERATING") {
-      //   return "Generating"
-      // }
+      else if (cachedStatus === "GENERATING") {
+        return "Generating"
+      }
       else {
         const queryStatus: any = await redis.call(
           "GRAPH.QUERY",
