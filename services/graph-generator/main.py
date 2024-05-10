@@ -37,6 +37,22 @@ def main():
         ###################################################
         ## GENEARTE CSV OR JSON FILE HERE AND UPLOAD IT ###
         ###################################################
+        q = f"""
+            MATCH path = (p1:Paper {{scopusId: '{scopusId}'}})-[:reference*0..3]->(p2) 
+            RETURN DISTINCT p2.scopusId, p2.title, p2.field, p2.country, p2.city, p2.author, p2.date, indegree(p2)
+        """
+        result_set = redis_graph.query(q).result_set
+        csv = 'scopusId,title,field,country,city,author,date,indegree\n'
+        for row in result_set:
+            csv += ','.join(map(str, row)) + '\n'
+        
+        with open(f"{scopusId}-{depth}.csv", 'w') as f:
+            f.write(csv)
+
+        with open(f"{scopusId}-{depth}.csv", 'rb') as f:
+            file_content = f.read()
+            s3.upload_fileobj(io.BytesIO(file_content), "kuranasaki-01", f"{scopusId}-{depth}.csv")
+
         # r.set(f'status:{scopusId}:{depth}', 'OK')
         # r.set(f'data:{scopusId}:{depth}'," ก้อน json string ขอองลิงก์เปิดไฟล์")
             
