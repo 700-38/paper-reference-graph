@@ -15,7 +15,7 @@ class RabbitMQConnection {
     try {
       console.log(`⌛️ Connecting to Rabbit-MQ Server`);
       this.connection = await client.connect(
-        `amqp://${rmqUser}:${rmqPass}@${rmqhost}:5672`
+        `amqp://${rmqUser}:${rmqPass}@${rmqhost}:5672/?heartbeat=0`
       );
 
       console.log(`✅ Rabbit MQ Connection is ready`);
