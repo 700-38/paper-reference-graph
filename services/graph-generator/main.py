@@ -45,7 +45,7 @@ def main():
                 RETURN DISTINCT p2.scopusId, p2.title, p2.field, p2.country, p2.city, p2.author, p2.date, indegree(p2)
             """
             result_set = redis_graph.query(q).result_set
-            csv = 'scopusId,title,field,country,city,author,date,indegree\n'
+            csv = 'scopusId;title;field;country;city;author;date;indegree\n'
             for row in result_set:
                 formatted_row = []
                 for item in row:
@@ -53,7 +53,7 @@ def main():
                     if ',' in item_str or '"' in item_str:
                         item_str = f'"{item_str}"'
                     formatted_row.append(item_str)
-                new_row = ','.join(formatted_row) + '\n'
+                new_row = ';'.join(formatted_row) + '\n'
                 csv += new_row
             
             # with open(f"{scopusId}-{depth}.csv", 'w') as f:
