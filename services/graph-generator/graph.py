@@ -118,7 +118,7 @@ class GraphGephi:
         colours_norm = {k: tuple([x / 255 for x in v]) for k, v in self.colours.items()}
         used_colours = [colours_norm[int(self.G.nodes[node]['depth']) % len(colours_norm)] if self.G.nodes[node] != {} else default_colour for node in self.G.nodes()]
         nx.draw(self.G, self.pos, node_color=used_colours)
-        plt.show()
+        # plt.show()
 
     def export_gexf(self, path):
         nx.write_gexf(self.G, path)
@@ -130,5 +130,5 @@ def createGephi(scopus_id, depth=10):
     gephi.init_graph()
     gephi.init_pos()
     gephi.draw()
-    gephi.export_gexf(f"{scopus_id}-{depth}.gexf")
+    gephi.export_gexf(f"cache/{scopus_id}-{depth}.gexf")
     return gephi

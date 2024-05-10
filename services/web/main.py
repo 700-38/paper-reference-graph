@@ -87,7 +87,22 @@ def request_stat():
     df_field = pd.DataFrame(data["field"])
     df_year = pd.DataFrame(data["year"])
     return (df_paper, df_field, df_year)
-    
+
+############################################################### 
+@st.cache_data
+def load_data(url):
+    data = pd.read_csv(url)
+    return data
+
+csv_file = './mockdat.csv'
+df_csv = load_data(csv_file)
+df_csv['year']=df_csv['date'].apply(lambda x: x.split('-')[0])
+
+def request_stat_csv(data):
+    filtertop10_paper = pd.DataFrame(data[["scopusId","title","indegree"]].sort_values(by='indegree',ascending=False).head(10))
+    filtertop10_field = pd.DataFrame(data[["field","indegree"]].sort_values(by='indegree',ascending=False).head(10))
+    filtertop10_year = pd.DataFrame(data[["year","indegree"]].sort_values(by='indegree',ascending=False).head(10))
+    return (filtertop10_paper, filtertop10_field, filtertop10_year)
 
 # Sidebar with Scopus ID input
 with st.sidebar:
@@ -179,47 +194,77 @@ else:
 # def load_data(url):
 #     data = pd.read_csv(url)
 #     return data
+            df_paper_csv, df_field_csv, df_year_csv = request_stat_csv(df_csv)
 
-# df = load_data('./mockdat.csv')
+            st.subheader("Top 10 The Most Cited Papers")
+            paper_chart_csv = alt.Chart(df_paper_csv).mark_bar().encode(
+                x=alt.X("scopusId:N", sort="-y", title="Scopus IDs"),
+                y=alt.Y("citation_count:Q", title="Citations"),
+                tooltip=["scopusId", "title", "citation_count"],
+            ).properties(width=600, height=400)
+            st.altair_chart(paper_chart_csv, use_container_width=True)
 
-# df['one']=1
-# print(df.head())
-# print(df.shape)
+            st.subheader("Top 10 The Most Cited Fields")
+            field_chart_csv = alt.Chart(df_field_csv).mark_bar().encode(
+                x=alt.X("field:N", sort="-y", title="Field"),
+                y=alt.Y("citation_count:Q", title="Citations"),
+                tooltip=["field", "citation_count"],
+            ).properties(width=600, height=400)
+            st.altair_chart(field_chart_csv, use_container_width=True)
 
-# #map
-# def color(rain):
-#     return [int(255*(1-rain)), int(255*rain), 0, 150]
+            st.subheader("Top 10 The Most Cited Years")
+            year_chart_csv = alt.Chart(df_year_csv).mark_bar().encode(
+                x=alt.X("year:N", sort="-y", title="Year"),
+                y=alt.Y("citation_count:Q", title="Citations"),
+                tooltip=["year", "citation_count"],
+            ).properties(width=600, height=400)
+            st.altair_chart(year_chart_csv, use_container_width=True)
 
-# df_map = df.groupby(['la', 'long'])['one'].sum().reset_index()
-# print(df_map.head())
-# print(df_map.shape)
-# df_map['color'] = df_map['one'].apply(lambda x: color(x))
+        #     components.iframe(
+        #     src=src,
+        #     height=800,
+        #     scrolling=True,
+        # )
+        
+###############################################################
+df_csv['geosize']=1
+print(df_csv.head())
+print(df_csv.shape)
 
-# st.write("### Map")
-# layer = pdk.Layer(
-#     'ScatterplotLayer',
-#     data=df_map,
-#     get_position=['long', 'la'],
-#     get_radius='one * 30000',
-#     get_fill_color='color',
-# )
-# view_state = pdk.ViewState(latitude=df['la'].mean(), longitude=df['long'].mean(), zoom=1)
-# st.pydeck_chart(pdk.Deck(layers=[layer], initial_view_state=view_state))
+#map
+def color(x):
+    return [int(255-50*x), int(255-50*x), 0, int(155+10*x)]
 
-# def authorcount(author):
-#     return len(author.strip(',').split(','))
+df_map = df_csv.groupby(['latitude', 'longtitude'])['geosize'].sum().reset_index()
+print(df_map.head())
+print(df_map.shape)
+df_map['color'] = df_map['geosize'].apply(lambda x: color(x))
+
+st.write("### Map")
+layer = pdk.Layer(
+    'ScatterplotLayer',
+    data=df_map,
+    get_position=['longtitude', 'latitude'],
+    get_radius='geosize * 30000',
+    get_fill_color='color',
+)
+view_state = pdk.ViewState(latitude=df_csv['latitude'].mean(), longitude=df_csv['longtitude'].mean(), zoom=1)
+st.pydeck_chart(pdk.Deck(layers=[layer], initial_view_state=view_state))
+
+def authorcount(author):
+    return len(author.strip(',').split(','))
     
 
-# c1, c2 = st.columns(2)
+c1, c2 = st.columns(2)
 
-# with c1:
-#     # Show paper count
-#     st.write("### Paper Count")
-#     paper_count = df.shape[0]  # Total number of papers
-#     st.write(f"Number of Papers: {paper_count}")
+with c1:
+    # Show paper count
+    st.write("### Paper Count")
+    paper_count = df_csv.shape[0]  # Total number of papers
+    st.write(f"Number of Papers: {paper_count}")
 
-# with c2:
-#     # Show author count
-#     st.write("### Author Count")
-#     author_count = df['author'].apply(authorcount).sum()  # Total number of authors
-#     st.write(f"Number of Authors: {author_count}")
+with c2:
+    # Show author count
+    st.write("### Author Count")
+    author_count = df_csv['author'].apply(authorcount).sum()  # Total number of authors
+    st.write(f"Number of Authors: {author_count}")
