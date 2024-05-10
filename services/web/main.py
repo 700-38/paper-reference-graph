@@ -114,8 +114,10 @@ def load_data(url):
     "date": str,  # Example: Dates should be parsed as datetime
     "indegree": int  # Example: Indegrees are usually numerical
 }
-
-    data = pd.read_csv(url, storage_options=option, dtype=data_types)
+    data = pd.read_csv(url, storage_options=option, dtype=data_types, delimiter=";")
+    if data.shape[1] == 1:
+        data = pd.read_csv(url, storage_options=option, dtype=data_types)
+        return data
     print(data.head())
     return data
 
