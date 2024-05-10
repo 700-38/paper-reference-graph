@@ -115,7 +115,7 @@ bun run dev
 First, navigate to the project directory and run the Streamlit server:
 
 ```bash
-streamlit run servicesweb/main.py
+streamlit run ./services/web/main.py
 ```
 
 ## Video Presentation and Slides
