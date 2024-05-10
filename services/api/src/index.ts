@@ -199,7 +199,16 @@ const app = new Elysia()
       field,
       year,
     };
+  })
+  .get("/all-city", async (req) => {
+    const allCity: any = await redis.call(
+      "GRAPH.QUERY",
+      "ds-paper",
+      "MATCH (p:Paper) WHERE p.country IS NOT NULL AND p.city IS NOT NULL RETURN DISTINCT p.city"
+    );
+    return allCity;
   });
+
 app.listen(3000);
 
 console.log(
