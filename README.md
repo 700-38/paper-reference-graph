@@ -67,16 +67,6 @@ To deepen our analysis and enrich the network, additional data is sourced via th
 
 ### Visualization
 
-Change
-8
-of 8
-
-Previous change
-
-Next change
-
-Explain
-
 - Use Gephi for detailed visualization of the reference networks, enabled by NetworkX for network data structuring.
 - Deploy Streamlit for dynamic, user-interactive visualizations, directly reflecting changes and updates in the reference network.
 
