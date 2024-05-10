@@ -11,23 +11,1509 @@
     <nodes>
       <node id="85037659942" label="85037659942">
         <viz:color r="7" g="87" b="91" a="0.8" />
-        <viz:size value="1.0" />
+        <viz:size value="1.6724137931034484" />
         <attvalues>
           <attvalue for="0" value="1" />
           <attvalue for="1" value="Measurements of tt¯ cross sections in association with b jets and inclusive jets and their ratio using dilepton final states in pp collisions at s=13TeV" />
         </attvalues>
       </node>
-      <node id="85047881197" label="85047881197">
+      <node id="84894569688" label="84894569688">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Search for the standard model Higgs boson produced in association with a W or a Z boson and decaying to bottom quarks" />
+        </attvalues>
+      </node>
+      <node id="84884704308" label="84884704308">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Measurements of Higgs boson production and couplings in diboson final states with the ATLAS detector at the LHC" />
+        </attvalues>
+      </node>
+      <node id="84925595714" label="84925595714">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Evidence for the 125 gev higgs boson decaying to a pair of τ leptons" />
+        </attvalues>
+      </node>
+      <node id="84978198716" label="84978198716">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Measurement of t t ¯ production with additional jet activity, including b quark jets, in the dilepton decay channel using pp collisions at √s = 8 TeV" />
+        </attvalues>
+      </node>
+      <node id="84953854901" label="84953854901">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Measurements of fiducial cross-sections for t ¯t production with one or two additional b-jets in pp collisions at √s = 8 TeV using the ATLAS detector" />
+        </attvalues>
+      </node>
+      <node id="85041770789" label="85041770789">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Measurement of the cross section ratio σtt¯bb¯/σtt¯jj in pp collisions at s=8 TeV" />
+        </attvalues>
+      </node>
+      <node id="68749119783" label="68749119783">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Next-To-leading order QCD corrections to pp→tt̄bb̄+X at the LHC" />
+        </attvalues>
+      </node>
+      <node id="54749089538" label="54749089538">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="NLO QCD corrections to tt̄bb̄ production at the LHC: 1. quark-antiquark annihilation" />
+        </attvalues>
+      </node>
+      <node id="84994831691" label="84994831691">
+        <viz:color r="7" g="87" b="91" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Measurement of the Inelastic Proton-Proton Cross Section at √s=13 TeV with the ATLAS Detector at the LHC" />
+        </attvalues>
+      </node>
+      <node id="85049178969" label="85049178969">
+        <viz:color r="7" g="87" b="91" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Review of particle physics" />
+        </attvalues>
+      </node>
+      <node id="84893947086" label="84893947086">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Measurement of Higgs boson production and properties in the WW decay channel with leptonic final states" />
+        </attvalues>
+      </node>
+      <node id="84907202703" label="84907202703">
+        <viz:color r="7" g="87" b="91" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Search for the associated production of the Higgs boson with a top-quark pair" />
+        </attvalues>
+      </node>
+      <node id="44449168474" label="44449168474">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="The catchment area of jets" />
+        </attvalues>
+      </node>
+      <node id="80053144634" label="80053144634">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="MadGraph 5: Going beyond" />
+        </attvalues>
+      </node>
+      <node id="84877788842" label="84877788842">
+        <viz:color r="7" g="87" b="91" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Identification of b-quark jets with the CMS experiment" />
+        </attvalues>
+      </node>
+      <node id="43049183627" label="43049183627">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="A brief introduction to PYTHIA 8.1" />
+        </attvalues>
+      </node>
+      <node id="84891110181" label="84891110181">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="PYTHIA 6.4 physics and manual" />
+        </attvalues>
+      </node>
+      <node id="84904564719" label="84904564719">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="NNLL threshold resummation for top-pair and single-top production" />
+        </attvalues>
+      </node>
+      <node id="84941617225" label="84941617225">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Performance of photon reconstruction and identification with the CMS detector in proton-proton collisions at s = 8 TeV" />
+        </attvalues>
+      </node>
+      <node id="85012113428" label="85012113428">
+        <viz:color r="7" g="87" b="91" a="0.8" />
+        <viz:size value="1.293103448275862" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="The CMS trigger system" />
+        </attvalues>
+      </node>
+      <node id="84905880796" label="84905880796">
+        <viz:color r="7" g="87" b="91" a="0.8" />
+        <viz:size value="1.0862068965517242" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Tuning PYTHIA 8.1: the Monash 2013 tune" />
+        </attvalues>
+      </node>
+      <node id="83155176925" label="83155176925">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Determination of jet energy calibration and transverse momentum resolution in CMS" />
+        </attvalues>
+      </node>
+      <node id="85020058027" label="85020058027">
+        <viz:color r="7" g="87" b="91" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Measurement of differential cross sections for top quark pair production using the lepton+jets final state in proton-proton collisions at 13 TeV" />
+        </attvalues>
+      </node>
+      <node id="0027680849" label="0027680849">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Fitting using finite Monte Carlo samples" />
+        </attvalues>
+      </node>
+      <node id="84906946712" label="84906946712">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Top++: A program for the calculation of the top-pair cross-section at hadron colliders" />
+        </attvalues>
+      </node>
+      <node id="84870197745" label="84870197745">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Combining QCD and electroweak corrections to dilepton production in the framework of the FEWZ simulation code" />
+        </attvalues>
+      </node>
+      <node id="84868533109" label="84868533109">
+        <viz:color r="7" g="87" b="91" a="0.8" />
+        <viz:size value="1.0517241379310345" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Performance of CMS muon reconstruction in pp collision events at √s = 7TeV" />
+        </attvalues>
+      </node>
+      <node id="84928688667" label="84928688667">
+        <viz:color r="7" g="87" b="91" a="0.8" />
+        <viz:size value="1.2586206896551724" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Parton distributions for the LHC run II" />
+        </attvalues>
+      </node>
+      <node id="84901044325" label="84901044325">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Measurement of the properties of a Higgs boson in the four-lepton final state" />
+        </attvalues>
+      </node>
+      <node id="84856393274" label="84856393274">
+        <viz:color r="7" g="87" b="91" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="The anti-k t jet clustering algorithm" />
+        </attvalues>
+      </node>
+      <node id="0038377458" label="0038377458">
+        <viz:color r="7" g="87" b="91" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="GEANT4 - A simulation toolkit" />
+        </attvalues>
+      </node>
+      <node id="77954971347" label="77954971347">
+        <viz:color r="7" g="87" b="91" a="0.8" />
+        <viz:size value="1.206896551724138" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="A general framework for implementing NLO calculations in shower Monte Carlo programs: The POWHEG BOX" />
+        </attvalues>
+      </node>
+      <node id="36849007532" label="36849007532">
+        <viz:color r="7" g="87" b="91" a="0.8" />
+        <viz:size value="1.1551724137931034" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Matching NLO QCD computations with parton shower simulations: The POWHEG method" />
+        </attvalues>
+      </node>
+      <node id="23044501163" label="23044501163">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="A new method for combining NLO QCD with shower Monte Carlo algorithms" />
+        </attvalues>
+      </node>
+      <node id="84904754026" label="84904754026">
         <viz:color r="7" g="87" b="91" a="0.8" />
         <viz:size value="2.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="The automated computation of tree-level and next-to-leading order differential cross sections, and their matching to parton shower simulations" />
+        </attvalues>
+      </node>
+      <node id="67650317516" label="67650317516">
+        <viz:color r="7" g="87" b="91" a="0.8" />
+        <viz:size value="1.0689655172413792" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="The CMS experiment at the CERN LHC" />
+        </attvalues>
+      </node>
+      <node id="84880345266" label="84880345266">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Observation of a new boson with mass near 125 GeV in pp collisions at √=7 and 8 TeV" />
+        </attvalues>
+      </node>
+      <node id="84865786005" label="84865786005">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Observation of a new boson at a mass of 125 GeV with the CMS experiment at the LHC" />
+        </attvalues>
+      </node>
+      <node id="85038109506" label="85038109506">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC" />
+        </attvalues>
+      </node>
+      <node id="84868209438" label="84868209438">
+        <viz:color r="7" g="87" b="91" a="0.8" />
+        <viz:size value="1.0172413793103448" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Parton distributions with LHC data" />
+        </attvalues>
+      </node>
+      <node id="16644389839" label="16644389839">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Radiative corrections to Zbb̄ production" />
+        </attvalues>
+      </node>
+      <node id="67649171489" label="67649171489">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Commissioning and performance of the CMS global calorimeter trigger" />
+        </attvalues>
+      </node>
+      <node id="77955383089" label="77955383089">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="CMS data quality monitoring: Systems and experiences" />
+        </attvalues>
+      </node>
+      <node id="84883377592" label="84883377592">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Inclusive search for supersymmetry using razor variables in pp collisions at √s=7 TeV" />
+        </attvalues>
+      </node>
+      <node id="84860360064" label="84860360064">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Search for microscopic black holes in pp collisions at √ s = 7 TeV" />
+        </attvalues>
+      </node>
+      <node id="79952173203" label="79952173203">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Search for microscopic black hole signatures at the Large Hadron Collider" />
+        </attvalues>
+      </node>
+      <node id="0001372085" label="0001372085">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="String balls at the LHC and beyond" />
+        </attvalues>
+      </node>
+      <node id="85038308458" label="85038308458">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Black holes at the large hadron collider" />
+        </attvalues>
+      </node>
+      <node id="84894498006" label="84894498006">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Measurement of the tt̄ production cross section in the dilepton channel in pp collisions at √s = 8 TeV" />
+        </attvalues>
+      </node>
+      <node id="33947362022" label="33947362022">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="The performance of the jet identification and reconstruction in heavy ions collisions with CMS detector" />
+        </attvalues>
+      </node>
+      <node id="0036497036" label="0036497036">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="High energy colliders as black hole factories: The end of short distance physics" />
+        </attvalues>
+      </node>
+      <node id="84863166738" label="84863166738">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Performance of τ-lepton reconstruction and identification in CMS" />
+        </attvalues>
+      </node>
+      <node id="28744434700" label="28744434700">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="A model of jet quenching in ultrarelativistic heavy ion collisionsand high- p T hadron spectra at RHIC" />
+        </attvalues>
+      </node>
+      <node id="84908341975" label="84908341975">
+        <viz:color r="7" g="87" b="91" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Description and performance of track and primary-vertex reconstruction with the CMS tracker" />
+        </attvalues>
+      </node>
+      <node id="66349101003" label="66349101003">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Simplified models for a first characterization of new physics at the LHC" />
+        </attvalues>
+      </node>
+      <node id="49349099156" label="49349099156">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="A simple shower and matching algorithm" />
+        </attvalues>
+      </node>
+      <node id="79960782937" label="79960782937">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Measurement of underlying event characteristics using charged particles in pp collisions at √s=900GeV and 7 TeV with the ATLAS detector" />
+        </attvalues>
+      </node>
+      <node id="18844471514" label="18844471514">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Transverse Momentum and Total Cross Section of e+e− Pairs in the Z-Boson Region from pp¯ Collisions at √s=1.8 TeV" />
+        </attvalues>
+      </node>
+      <node id="33744623013" label="33744623013">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="A multiple-interaction model for the event structure in hadron collisions" />
+        </attvalues>
+      </node>
+      <node id="79957574220" label="79957574220">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="General-purpose event generators for LHC physics" />
+        </attvalues>
+      </node>
+      <node id="84857775242" label="84857775242">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Prompt and non-prompt J/ψ production in pp collisions at √s =7 TeV" />
+        </attvalues>
+      </node>
+      <node id="23044461017" label="23044461017">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="New generation of parton distributions with uncertainties from global QCD analysis" />
+        </attvalues>
+      </node>
+      <node id="84928236881" label="84928236881">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Parton distribution benchmarking with LHC data" />
+        </attvalues>
+      </node>
+      <node id="84901416629" label="84901416629">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Feasibility of top quark measurements at LHCb and constraints on the large-x gluon PDF" />
+        </attvalues>
+      </node>
+      <node id="84879021460" label="84879021460">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Unbiased determination of polarized parton distributions and their uncertainties" />
+        </attvalues>
+      </node>
+      <node id="84894756623" label="84894756623">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Do we need N3LO parton distributions?" />
+        </attvalues>
+      </node>
+      <node id="0000175877" label="0000175877">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Next-to-leading order corrections to W+2 jet and Z+2 jet production at hadron colliders" />
+        </attvalues>
+      </node>
+      <node id="84882711000" label="84882711000">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Measurement of the inclusive e±p scattering cross section at high inelasticity y and of the structure function FL" />
+        </attvalues>
+      </node>
+      <node id="4243734807" label="4243734807">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="The intrinsic charm of the proton" />
+        </attvalues>
+      </node>
+      <node id="69849108434" label="69849108434">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Precision determination of electroweak parameters and the strange content of the proton from neutrino deep-inelastic scattering" />
+        </attvalues>
+      </node>
+      <node id="65549171600" label="65549171600">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Direct measurement of the W production charge asymmetry in pp̄ collisions at s=1.96TeV" />
+        </attvalues>
+      </node>
+      <node id="56749163377" label="56749163377">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="A determination of parton distributions with faithful uncertainty estimation" />
+        </attvalues>
+      </node>
+      <node id="84920082635" label="84920082635">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Squark and gluino production cross sections in pp collisions at √s= 13, 14, 33 and 100 TeV" />
+        </attvalues>
+      </node>
+      <node id="77954142616" label="77954142616">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="A first unbiased global NLO determination of parton distributions and their uncertainties" />
+        </attvalues>
+      </node>
+      <node id="79955591077" label="79955591077">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Impact of heavy quark masses on parton distributions and LHC phenomenology" />
+        </attvalues>
+      </node>
+      <node id="84977590709" label="84977590709">
+        <viz:color r="7" g="87" b="91" a="0.8" />
+        <viz:size value="1.0517241379310345" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Single-top Wt-channel production matched with parton showers using the POWHEG method" />
+        </attvalues>
+      </node>
+      <node id="0000567842" label="0000567842">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Improved spin basis for angular correlation studies in single top quark production at the Fermilab Tevatron" />
+        </attvalues>
+      </node>
+      <node id="0001862003" label="0001862003">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Calculating QCD corrections to single top production in hadronic interactions" />
+        </attvalues>
+      </node>
+      <node id="84924288609" label="84924288609">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Single top-quark production and decay at next-to-leading order" />
+        </attvalues>
+      </node>
+      <node id="49749113761" label="49749113761">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Automated implementation of on-shell methods for one-loop amplitudes" />
+        </attvalues>
+      </node>
+      <node id="70149099971" label="70149099971">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="golem95: A numerical program to calculate one-loop tensor integrals with up to six external legs" />
+        </attvalues>
+      </node>
+      <node id="0033130826" label="0033130826">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Automated one-loop calculations in four and D dimensions" />
+        </attvalues>
+      </node>
+      <node id="43049083695" label="43049083695">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="A numerical unitarity formalism for evaluating one-loop amplitudes" />
+        </attvalues>
+      </node>
+      <node id="33947708402" label="33947708402">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="A positive-weight next-to-leading-order Monte Carlo for e+e - annihilation to hadrons" />
+        </attvalues>
+      </node>
+      <node id="58149306151" label="58149306151">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="MadDipole: Automation of the dipole subtraction method in MadGraph/MadEvent" />
+        </attvalues>
+      </node>
+      <node id="0030594542" label="0030594542">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Three-jet cross sections to next-to-leading order" />
+        </attvalues>
+      </node>
+      <node id="33748289524" label="33748289524">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="A positive-weight next-to-leading-order Monte Carlo for Z pair hadroproduction" />
+        </attvalues>
+      </node>
+      <node id="70350035498" label="70350035498">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="NLO production of W' bosons at hadron colliders using the MC@NLO and POWHEG methods" />
+        </attvalues>
+      </node>
+      <node id="71449126885" label="71449126885">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Automation of next-to-leading order computations in QCD: The FKS subtraction" />
+        </attvalues>
+      </node>
+      <node id="34948835597" label="34948835597">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="A positive-weight next-to-leading-order Monte Carlo for heavy flavour hadroproduction" />
+        </attvalues>
+      </node>
+      <node id="77954922970" label="77954922970">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="NLO Higgs boson production via vector-boson fusion matched with shower in POWHEG" />
+        </attvalues>
+      </node>
+      <node id="35148896739" label="35148896739">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Event generation from effective field theory" />
+        </attvalues>
+      </node>
+      <node id="32644478598" label="32644478598">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Next-to-leading order QCD jet production with parton showers and hadronization" />
+        </attvalues>
+      </node>
+      <node id="0000342518" label="0000342518">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Dipole formulation of QCD cascades" />
+        </attvalues>
+      </node>
+      <node id="33645688180" label="33645688180">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Single-top production in MC@NLO" />
+        </attvalues>
+      </node>
+      <node id="22144455531" label="22144455531">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Matching NLO QCD and parton showers in heavy flavour production" />
+        </attvalues>
+      </node>
+      <node id="0026903553" label="0026903553">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Ariadne version 4 - A program for simulation of QDC cascades implementing the colour dipole model" />
+        </attvalues>
+      </node>
+      <node id="84875194147" label="84875194147">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Precision studies of the Higgs boson decay channel H→ZZ→4ℓ with MEKD" />
+        </attvalues>
+      </node>
+      <node id="84864209065" label="84864209065">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Feynman rules for the rational part of one-loop QCD corrections in the MSSM" />
+        </attvalues>
+      </node>
+      <node id="78449294104" label="78449294104">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Calculation of HELAS amplitudes for QCD processes using graphics processing unit (GPU)" />
+        </attvalues>
+      </node>
+      <node id="84869067028" label="84869067028">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="The matrix element method at next-to-leading order" />
+        </attvalues>
+      </node>
+      <node id="0034337140" label="0034337140">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Automatic computation of cross sections in HEP: Status of GRACE system" />
+        </attvalues>
+      </node>
+      <node id="0038623971" label="0038623971">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="GRACE/SUSY: Automatic generation of tree amplitudes in the minimal supersymmetric standard model" />
+        </attvalues>
+      </node>
+      <node id="0000819069" label="0000819069">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Gauge invariance, analyticity and physical observables at the Z0 resonance" />
+        </attvalues>
+      </node>
+      <node id="43049151516" label="43049151516">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="CutTools: A program implementing the OPP reduction method to compute one-loop amplitudes" />
+        </attvalues>
+      </node>
+      <node id="78751701588" label="78751701588">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="NLO QCD corrections to W±Zγ production with leptonic decays" />
+        </attvalues>
+      </node>
+      <node id="84863011399" label="84863011399">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Matched predictions for Higgs production via heavy-quark loops in the standard model and beyond" />
+        </attvalues>
+      </node>
+      <node id="84856060153" label="84856060153">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Next-to-leading-order results for five, six, and seven jets in electron-positron annihilation" />
+        </attvalues>
+      </node>
+      <node id="80555148654" label="80555148654">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Automized squark-neutralino production to next-to-leading order" />
+        </attvalues>
+      </node>
+      <node id="33845937101" label="33845937101">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Vector boson pair production in hadronic collisions at O(αs): Lepton correlations and anomalous couplings" />
+        </attvalues>
+      </node>
+      <node id="84884678244" label="84884678244">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Next-to-leading-order QCD corrections to Higgs boson production plus three jets in gluon fusion" />
+        </attvalues>
+      </node>
+      <node id="80053098201" label="80053098201">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="NLO matrix elements and truncated showers" />
+        </attvalues>
+      </node>
+      <node id="0032527323" label="0032527323">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Next-to-leading-order corrections to the production of heavy-flavour jets in e+e- collisions" />
+        </attvalues>
+      </node>
+      <node id="33947219818" label="33947219818">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Production of a W boson and two jets with one b-quark tag" />
+        </attvalues>
+      </node>
+      <node id="77951956947" label="77951956947">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="W+3 jet production at the LHC as a signal or background" />
+        </attvalues>
+      </node>
+      <node id="79952235461" label="79952235461">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Precise predictions for W+4-jet production at the large hadron collider" />
+        </attvalues>
+      </node>
+      <node id="79960800222" label="79960800222">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Next-to-leading order QCD corrections for W+W- pair production in association with two jets at hadron colliders" />
+        </attvalues>
+      </node>
+      <node id="0030580264" label="0030580264">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Pair production of neutral Higgs particles in gluon-gluon collisions" />
+        </attvalues>
+      </node>
+      <node id="0348199784" label="0348199784">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Higgs radiation off top quarks in e+e- collisions" />
+        </attvalues>
+      </node>
+      <node id="84884699672" label="84884699672">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Higgs production through vector-boson fusion at the NLO matched with parton showers" />
+        </attvalues>
+      </node>
+      <node id="0000590726" label="0000590726">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Top quark production and decay at next-to-leading order in [Formula presented] annihilation" />
+        </attvalues>
+      </node>
+      <node id="80054683404" label="80054683404">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Top quark pair production in association with a jet at NLO accuracy with parton showering" />
+        </attvalues>
+      </node>
+      <node id="0002440542" label="0002440542">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Order-s calculation of hadronic W-W+ production" />
+        </attvalues>
+      </node>
+      <node id="84891132522" label="84891132522">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Simulating spin-3/2 particles at colliders" />
+        </attvalues>
+      </node>
+      <node id="26444436384" label="26444436384">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Electroweak corrections to charged-current e+e- → 4 fermion processes: Technical details and further results" />
+        </attvalues>
+      </node>
+      <node id="33744767784" label="33744767784">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Improved analytic techniques for tree graph calculations and the ggqqℓℓ subprocess" />
+        </attvalues>
+      </node>
+      <node id="84875839601" label="84875839601">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="SARAH 3.2: Dirac gauginos, UFO output, and more" />
+        </attvalues>
+      </node>
+      <node id="33750515066" label="33750515066">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Helicity amplitudes for multiple bremsstrahlung in massless non-abelian gauge theories" />
+        </attvalues>
+      </node>
+      <node id="84903639646" label="84903639646">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Computation of multi-leg amplitudes with NJET" />
+        </attvalues>
+      </node>
+      <node id="0000896730" label="0000896730">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Spinor techniques for calculating pp → W±/Z0 + jets" />
+        </attvalues>
+      </node>
+      <node id="79960763254" label="79960763254">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Next-to-leading order QCD predictions for W+2 jet and Z+2 jet production at the CERN LHC" />
+        </attvalues>
+      </node>
+      <node id="8644245256" label="8644245256">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="ALPGEN, a generator for hard multiparton processes in hadronic collisions" />
+        </attvalues>
+      </node>
+      <node id="84864454564" label="84864454564">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Measurement of tt production with a veto on additional central jet activity in pp collisions at √s = 7 TeV using the ATLAS detector" />
+        </attvalues>
+      </node>
+      <node id="70350754501" label="70350754501">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="NLO predictions for t-channel production of single top and fourth generation quarks at hadron colliders" />
+        </attvalues>
+      </node>
+      <node id="80053158024" label="80053158024">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Vector boson plus one jet production in POWHEG" />
+        </attvalues>
+      </node>
+      <node id="84859534346" label="84859534346">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Matching tree-level matrix elements with interleaved showers" />
+        </attvalues>
+      </node>
+      <node id="84896263120" label="84896263120">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="A framework for Higgs characterisation" />
+        </attvalues>
+      </node>
+      <node id="80555134562" label="80555134562">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Zγ production with leptonic decays and triple photon production at next-to-leading order QCD" />
+        </attvalues>
+      </node>
+      <node id="84897458834" label="84897458834">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Higgs pair production at the LHC with NLO and parton-shower effects" />
+        </attvalues>
+      </node>
+      <node id="47249114390" label="47249114390">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="NLO QCD corrections to tri-boson production" />
+        </attvalues>
+      </node>
+      <node id="84864476190" label="84864476190">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="tt̄W± production and decay at NLO" />
+        </attvalues>
+      </node>
+      <node id="84907608426" label="84907608426">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="The measurement of the Higgs self-coupling at the LHC: Theoretical status" />
+        </attvalues>
+      </node>
+      <node id="33746437405" label="33746437405">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Dynamical Likelihood Method for Reconstruction of Events with Missing Momentum: I. Method and Toy Models" />
+        </attvalues>
+      </node>
+      <node id="84990703179" label="84990703179">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Techniques for the Calculation of Electroweak Radiative Corrections at the One‐Loop Level and Results for W‐physics at LEP 200" />
+        </attvalues>
+      </node>
+      <node id="0542445044" label="0542445044">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Neutral Higgs-boson pair production at hadron colliders: QCD corrections" />
+        </attvalues>
+      </node>
+      <node id="49749113601" label="49749113601">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Single-top hadroproduction in association with a W boson" />
+        </attvalues>
+      </node>
+      <node id="80053148952" label="80053148952">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Jet pair production in POWHEG" />
+        </attvalues>
+      </node>
+      <node id="80053247755" label="80053247755">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Vector boson pair production at the LHC" />
+        </attvalues>
+      </node>
+      <node id="23044504705" label="23044504705">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Matrix elements and parton showers in hadronic interactions" />
+        </attvalues>
+      </node>
+      <node id="62649122484" label="62649122484">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Comix, a new matrix element generator" />
+        </attvalues>
+      </node>
+      <node id="23044456628" label="23044456628">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="AMEGIC++ 1.0 A matrix element generator in C++" />
+        </attvalues>
+      </node>
+      <node id="84857344863" label="84857344863">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Hadronic top-quark pair-production with one jet and parton showering" />
+        </attvalues>
+      </node>
+      <node id="84876213005" label="84876213005">
+        <viz:color r="7" g="87" b="91" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Merging meets matching in MC@NLO" />
+        </attvalues>
+      </node>
+      <node id="0030079948" label="0030079948">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Pattern Comparator Trigger (PACT) for the muon system of the CMS experiment" />
+        </attvalues>
+      </node>
+      <node id="19044380430" label="19044380430">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Conceptual design of an improved CMS RPC Muon Trigger using the Hadron Outer scintillators" />
+        </attvalues>
+      </node>
+      <node id="0033905954" label="0033905954">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="CMS detector magnet" />
+        </attvalues>
+      </node>
+      <node id="0026923891" label="0026923891">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Component-Oriented Software Development" />
+        </attvalues>
+      </node>
+      <node id="85047881197" label="85047881197">
+        <viz:color r="7" g="87" b="91" a="0.8" />
+        <viz:size value="1.4310344827586206" />
         <attvalues>
           <attvalue for="0" value="1" />
           <attvalue for="1" value="Identification of heavy-flavour jets with the CMS detector in pp collisions at 13 TeV" />
         </attvalues>
       </node>
+      <node id="84860762791" label="84860762791">
+        <viz:color r="7" g="87" b="91" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Inclusive b-jet production in pp collisions at √s = 7 TeV" />
+        </attvalues>
+      </node>
+      <node id="77951960753" label="77951960753">
+        <viz:color r="7" g="87" b="91" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Spin correlation effects in top quark pair production at the LHC" />
+        </attvalues>
+      </node>
+      <node id="80053145382" label="80053145382">
+        <viz:color r="7" g="87" b="91" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Strange particle production in pp collisions at √s = 0.9 and 7 TeVs" />
+        </attvalues>
+      </node>
+      <node id="33947676912" label="33947676912">
+        <viz:color r="7" g="87" b="91" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Matching matrix elements and shower evolution for top-pair production in hadronic collisions" />
+        </attvalues>
+      </node>
+      <node id="77954921900" label="77954921900">
+        <viz:color r="7" g="87" b="91" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Jet trimming" />
+        </attvalues>
+      </node>
     </nodes>
     <edges>
-      <edge source="85047881197" target="85037659942" id="0" />
+      <edge source="85037659942" target="84894569688" id="0" />
+      <edge source="85037659942" target="84884704308" id="1" />
+      <edge source="85037659942" target="84925595714" id="2" />
+      <edge source="85037659942" target="84978198716" id="3" />
+      <edge source="85037659942" target="84953854901" id="4" />
+      <edge source="85037659942" target="85041770789" id="5" />
+      <edge source="85037659942" target="68749119783" id="6" />
+      <edge source="85037659942" target="54749089538" id="7" />
+      <edge source="85037659942" target="84994831691" id="8" />
+      <edge source="85037659942" target="85049178969" id="9" />
+      <edge source="85037659942" target="84893947086" id="10" />
+      <edge source="85037659942" target="84907202703" id="11" />
+      <edge source="85037659942" target="44449168474" id="12" />
+      <edge source="85037659942" target="80053144634" id="13" />
+      <edge source="85037659942" target="84877788842" id="14" />
+      <edge source="85037659942" target="43049183627" id="15" />
+      <edge source="85037659942" target="84891110181" id="16" />
+      <edge source="85037659942" target="84904564719" id="17" />
+      <edge source="85037659942" target="84941617225" id="18" />
+      <edge source="85037659942" target="85012113428" id="19" />
+      <edge source="85037659942" target="84905880796" id="20" />
+      <edge source="85037659942" target="83155176925" id="21" />
+      <edge source="85037659942" target="85020058027" id="22" />
+      <edge source="85037659942" target="0027680849" id="23" />
+      <edge source="85037659942" target="84906946712" id="24" />
+      <edge source="85037659942" target="84870197745" id="25" />
+      <edge source="85037659942" target="84868533109" id="26" />
+      <edge source="85037659942" target="84928688667" id="27" />
+      <edge source="85037659942" target="84901044325" id="28" />
+      <edge source="85037659942" target="84856393274" id="29" />
+      <edge source="85037659942" target="0038377458" id="30" />
+      <edge source="85037659942" target="77954971347" id="31" />
+      <edge source="85037659942" target="36849007532" id="32" />
+      <edge source="85037659942" target="23044501163" id="33" />
+      <edge source="85037659942" target="84904754026" id="34" />
+      <edge source="85037659942" target="67650317516" id="35" />
+      <edge source="85037659942" target="84880345266" id="36" />
+      <edge source="85037659942" target="84865786005" id="37" />
+      <edge source="85037659942" target="85038109506" id="38" />
+      <edge source="85012113428" target="67649171489" id="39" />
+      <edge source="85012113428" target="77955383089" id="40" />
+      <edge source="85012113428" target="84883377592" id="41" />
+      <edge source="85012113428" target="84860360064" id="42" />
+      <edge source="85012113428" target="79952173203" id="43" />
+      <edge source="85012113428" target="0001372085" id="44" />
+      <edge source="85012113428" target="85038308458" id="45" />
+      <edge source="85012113428" target="84894498006" id="46" />
+      <edge source="85012113428" target="84925595714" id="47" />
+      <edge source="85012113428" target="33947362022" id="48" />
+      <edge source="85012113428" target="0036497036" id="49" />
+      <edge source="85012113428" target="84877788842" id="50" />
+      <edge source="85012113428" target="84863166738" id="51" />
+      <edge source="85012113428" target="28744434700" id="52" />
+      <edge source="85012113428" target="84908341975" id="53" />
+      <edge source="85012113428" target="66349101003" id="54" />
+      <edge source="85012113428" target="84865786005" id="55" />
+      <edge source="84905880796" target="49349099156" id="56" />
+      <edge source="84905880796" target="79960782937" id="57" />
+      <edge source="84905880796" target="18844471514" id="58" />
+      <edge source="84905880796" target="33744623013" id="59" />
+      <edge source="84905880796" target="79957574220" id="60" />
+      <edge source="84868533109" target="84857775242" id="61" />
+      <edge source="84868533109" target="23044461017" id="62" />
+      <edge source="84868533109" target="0038377458" id="63" />
+      <edge source="84928688667" target="84928236881" id="64" />
+      <edge source="84928688667" target="84901416629" id="65" />
+      <edge source="84928688667" target="84879021460" id="66" />
+      <edge source="84928688667" target="84894756623" id="67" />
+      <edge source="84928688667" target="0000175877" id="68" />
+      <edge source="84928688667" target="84882711000" id="69" />
+      <edge source="84928688667" target="4243734807" id="70" />
+      <edge source="84928688667" target="69849108434" id="71" />
+      <edge source="84928688667" target="65549171600" id="72" />
+      <edge source="84928688667" target="56749163377" id="73" />
+      <edge source="84928688667" target="84920082635" id="74" />
+      <edge source="84928688667" target="77954142616" id="75" />
+      <edge source="84928688667" target="79955591077" id="76" />
+      <edge source="84928688667" target="84868209438" id="77" />
+      <edge source="84928688667" target="84856393274" id="78" />
+      <edge source="77954971347" target="49749113761" id="79" />
+      <edge source="77954971347" target="70149099971" id="80" />
+      <edge source="77954971347" target="0033130826" id="81" />
+      <edge source="77954971347" target="43049083695" id="82" />
+      <edge source="77954971347" target="33947708402" id="83" />
+      <edge source="77954971347" target="58149306151" id="84" />
+      <edge source="77954971347" target="0030594542" id="85" />
+      <edge source="77954971347" target="33748289524" id="86" />
+      <edge source="77954971347" target="70350035498" id="87" />
+      <edge source="77954971347" target="71449126885" id="88" />
+      <edge source="77954971347" target="34948835597" id="89" />
+      <edge source="77954971347" target="77954922970" id="90" />
+      <edge source="36849007532" target="35148896739" id="91" />
+      <edge source="36849007532" target="32644478598" id="92" />
+      <edge source="36849007532" target="33947708402" id="93" />
+      <edge source="36849007532" target="0000342518" id="94" />
+      <edge source="36849007532" target="33645688180" id="95" />
+      <edge source="36849007532" target="22144455531" id="96" />
+      <edge source="36849007532" target="0026903553" id="97" />
+      <edge source="36849007532" target="84891110181" id="98" />
+      <edge source="36849007532" target="34948835597" id="99" />
+      <edge source="84904754026" target="84875194147" id="100" />
+      <edge source="84904754026" target="84864209065" id="101" />
+      <edge source="84904754026" target="78449294104" id="102" />
+      <edge source="84904754026" target="84869067028" id="103" />
+      <edge source="84904754026" target="0034337140" id="104" />
+      <edge source="84904754026" target="0038623971" id="105" />
+      <edge source="84904754026" target="0000819069" id="106" />
+      <edge source="84904754026" target="43049151516" id="107" />
+      <edge source="84904754026" target="78751701588" id="108" />
+      <edge source="84904754026" target="84863011399" id="109" />
+      <edge source="84904754026" target="84856060153" id="110" />
+      <edge source="84904754026" target="80555148654" id="111" />
+      <edge source="84904754026" target="33845937101" id="112" />
+      <edge source="84904754026" target="84884678244" id="113" />
+      <edge source="84904754026" target="80053098201" id="114" />
+      <edge source="84904754026" target="0032527323" id="115" />
+      <edge source="84904754026" target="33947219818" id="116" />
+      <edge source="84904754026" target="77951956947" id="117" />
+      <edge source="84904754026" target="79952235461" id="118" />
+      <edge source="84904754026" target="79960800222" id="119" />
+      <edge source="84904754026" target="0030580264" id="120" />
+      <edge source="84904754026" target="0348199784" id="121" />
+      <edge source="84904754026" target="84884699672" id="122" />
+      <edge source="84904754026" target="0000590726" id="123" />
+      <edge source="84904754026" target="80054683404" id="124" />
+      <edge source="84904754026" target="0002440542" id="125" />
+      <edge source="84904754026" target="84891132522" id="126" />
+      <edge source="84904754026" target="26444436384" id="127" />
+      <edge source="84904754026" target="33744767784" id="128" />
+      <edge source="84904754026" target="84875839601" id="129" />
+      <edge source="84904754026" target="33750515066" id="130" />
+      <edge source="84904754026" target="84903639646" id="131" />
+      <edge source="84904754026" target="0000896730" id="132" />
+      <edge source="84904754026" target="79960763254" id="133" />
+      <edge source="84904754026" target="8644245256" id="134" />
+      <edge source="84904754026" target="84864454564" id="135" />
+      <edge source="84904754026" target="70350754501" id="136" />
+      <edge source="84904754026" target="80053158024" id="137" />
+      <edge source="84904754026" target="84859534346" id="138" />
+      <edge source="84904754026" target="84896263120" id="139" />
+      <edge source="84904754026" target="80555134562" id="140" />
+      <edge source="84904754026" target="84897458834" id="141" />
+      <edge source="84904754026" target="47249114390" id="142" />
+      <edge source="84904754026" target="84864476190" id="143" />
+      <edge source="84904754026" target="84907608426" id="144" />
+      <edge source="84904754026" target="33746437405" id="145" />
+      <edge source="84904754026" target="84990703179" id="146" />
+      <edge source="84904754026" target="0542445044" id="147" />
+      <edge source="84904754026" target="49749113601" id="148" />
+      <edge source="84904754026" target="80053148952" id="149" />
+      <edge source="84904754026" target="80053247755" id="150" />
+      <edge source="84904754026" target="23044504705" id="151" />
+      <edge source="84904754026" target="62649122484" id="152" />
+      <edge source="84904754026" target="23044456628" id="153" />
+      <edge source="84904754026" target="84857344863" id="154" />
+      <edge source="84904754026" target="84856393274" id="155" />
+      <edge source="84904754026" target="84977590709" id="156" />
+      <edge source="84904754026" target="84876213005" id="157" />
+      <edge source="67650317516" target="0030079948" id="158" />
+      <edge source="67650317516" target="19044380430" id="159" />
+      <edge source="67650317516" target="0033905954" id="160" />
+      <edge source="67650317516" target="0026923891" id="161" />
+      <edge source="84868209438" target="16644389839" id="162" />
+      <edge source="84977590709" target="0000567842" id="163" />
+      <edge source="84977590709" target="0001862003" id="164" />
+      <edge source="84977590709" target="84924288609" id="165" />
+      <edge source="85047881197" target="85037659942" id="166" />
+      <edge source="85047881197" target="84868209438" id="167" />
+      <edge source="85047881197" target="85012113428" id="168" />
+      <edge source="85047881197" target="84905880796" id="169" />
+      <edge source="85047881197" target="84868533109" id="170" />
+      <edge source="85047881197" target="84928688667" id="171" />
+      <edge source="85047881197" target="84977590709" id="172" />
+      <edge source="85047881197" target="77954971347" id="173" />
+      <edge source="85047881197" target="36849007532" id="174" />
+      <edge source="85047881197" target="84904754026" id="175" />
+      <edge source="85047881197" target="67650317516" id="176" />
+      <edge source="85047881197" target="84860762791" id="177" />
+      <edge source="85047881197" target="77951960753" id="178" />
+      <edge source="85047881197" target="80053145382" id="179" />
+      <edge source="85047881197" target="84994831691" id="180" />
+      <edge source="85047881197" target="33947676912" id="181" />
+      <edge source="85047881197" target="85049178969" id="182" />
+      <edge source="85047881197" target="84907202703" id="183" />
+      <edge source="85047881197" target="84877788842" id="184" />
+      <edge source="85047881197" target="77954921900" id="185" />
+      <edge source="85047881197" target="85020058027" id="186" />
+      <edge source="85047881197" target="84908341975" id="187" />
+      <edge source="85047881197" target="84856393274" id="188" />
+      <edge source="85047881197" target="0038377458" id="189" />
+      <edge source="85047881197" target="84876213005" id="190" />
     </edges>
   </graph>
 </gexf>

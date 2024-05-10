@@ -30,7 +30,7 @@ def main():
         depth = data.get('depth')
         
         try:
-            redis.set(f'status:{scopusId}:{depth}', 'GENERATING')
+            r.set(f'status:{scopusId}:{depth}', 'GENERATING')
             print(f" Generating Gephi for {scopusId} with depth {depth}")
             createGephi(scopus_id=scopusId, depth=depth)
             filename = f"{scopusId}-{depth}"
