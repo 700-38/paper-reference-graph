@@ -90,7 +90,8 @@ def load_data(url):
     data = pd.read_csv(url)
     return data
 
-df_csv = load_data('./mockdat.csv')
+csv_file = './mockdat.csv'
+df_csv = load_data(csv_file)
 df_csv['year']=df_csv['date'].apply(lambda x: x.split('-')[0])
 
 def request_stat_csv(data):
