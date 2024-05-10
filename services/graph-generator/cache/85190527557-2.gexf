@@ -1,0 +1,258 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2024-05-10">
+    <creator>NetworkX 3.3</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="depth" type="long" />
+      <attribute id="1" title="title" type="string" />
+    </attributes>
+    <nodes>
+      <node id="85049260454" label="85049260454">
+        <viz:color r="7" g="87" b="91" a="0.8" />
+        <viz:size value="2.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Performance of the CMS muon detector and muon reconstruction with proton-proton collisions at s=13 TeV" />
+        </attvalues>
+      </node>
+      <node id="84891110181" label="84891110181">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="PYTHIA 6.4 physics and manual" />
+        </attvalues>
+      </node>
+      <node id="85012113428" label="85012113428">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="The CMS trigger system" />
+        </attvalues>
+      </node>
+      <node id="84868533109" label="84868533109">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Performance of CMS muon reconstruction in pp collision events at √s = 7TeV" />
+        </attvalues>
+      </node>
+      <node id="84908341975" label="84908341975">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Description and performance of track and primary-vertex reconstruction with the CMS tracker" />
+        </attvalues>
+      </node>
+      <node id="84928688667" label="84928688667">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Parton distributions for the LHC run II" />
+        </attvalues>
+      </node>
+      <node id="84858019473" label="84858019473">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="FastJet user manual: (For version 3.0.2)" />
+        </attvalues>
+      </node>
+      <node id="85033569480" label="85033569480">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Particle-flow reconstruction and global event description with the CMS detector" />
+        </attvalues>
+      </node>
+      <node id="0038377458" label="0038377458">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="GEANT4 - A simulation toolkit" />
+        </attvalues>
+      </node>
+      <node id="84962213598" label="84962213598">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Event generator tunes obtained from underlying event and multiparton scattering measurements" />
+        </attvalues>
+      </node>
+      <node id="84928671738" label="84928671738">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="An introduction to PYTHIA 8.2" />
+        </attvalues>
+      </node>
+      <node id="84977590709" label="84977590709">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Single-top Wt-channel production matched with parton showers using the POWHEG method" />
+        </attvalues>
+      </node>
+      <node id="84904754026" label="84904754026">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="The automated computation of tree-level and next-to-leading order differential cross sections, and their matching to parton shower simulations" />
+        </attvalues>
+      </node>
+      <node id="67650317516" label="67650317516">
+        <viz:color r="97" g="164" b="173" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="The CMS experiment at the CERN LHC" />
+        </attvalues>
+      </node>
+      <node id="84937645181" label="84937645181">
+        <viz:color r="7" g="87" b="91" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Search for the lepton flavour violating decay τ− → μ−μ+μ−" />
+        </attvalues>
+      </node>
+      <node id="77949915854" label="77949915854">
+        <viz:color r="7" g="87" b="91" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Search for lepton-flavor-violating τ decays into three leptons with 719 million produced τ+ τ- pairs" />
+        </attvalues>
+      </node>
+      <node id="33644881153" label="33644881153">
+        <viz:color r="7" g="87" b="91" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Testing supersymmetry with lepton flavor violating τ and μ decays" />
+        </attvalues>
+      </node>
+      <node id="84895906821" label="84895906821">
+        <viz:color r="7" g="87" b="91" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Flavor physics of leptons and dipole moments" />
+        </attvalues>
+      </node>
+      <node id="58449093408" label="58449093408">
+        <viz:color r="7" g="87" b="91" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Charged lepton flavor violation experiments" />
+        </attvalues>
+      </node>
+      <node id="85086000752" label="85086000752">
+        <viz:color r="7" g="87" b="91" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="τ→ μμμ at a rate of one out of 10 14 tau decays?" />
+        </attvalues>
+      </node>
+      <node id="85060867887" label="85060867887">
+        <viz:color r="7" g="87" b="91" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Flavor violating leptonic decays of τ and μ leptons in the Standard Model with massive neutrinos" />
+        </attvalues>
+      </node>
+      <node id="0038928807" label="0038928807">
+        <viz:color r="7" g="87" b="91" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Lepton flavor changing in neutrinoless τ decays" />
+        </attvalues>
+      </node>
+      <node id="0026909840" label="0026909840">
+        <viz:color r="7" g="87" b="91" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Incorporating systematic uncertainties into an upper limit" />
+        </attvalues>
+      </node>
+      <node id="84984950690" label="84984950690">
+        <viz:color r="7" g="87" b="91" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="XGBoost: A scalable tree boosting system" />
+        </attvalues>
+      </node>
+      <node id="0036390924" label="0036390924">
+        <viz:color r="7" g="87" b="91" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Presentation of search results: The CLs technique" />
+        </attvalues>
+      </node>
+      <node id="0033592266" label="0033592266">
+        <viz:color r="7" g="87" b="91" a="0.8" />
+        <viz:size value="1.0" />
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Confidence level computation for combining searches with small statistics" />
+        </attvalues>
+      </node>
+      <node id="85190527557" label="85190527557">
+        <viz:color r="200" g="0" b="0" a="0.8" />
+        <viz:size value="2.0" />
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="Search for the lepton flavor violating τ → 3μ decay in proton-proton collisions at s=13TeV" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="85049260454" target="84891110181" id="0" />
+      <edge source="85049260454" target="85012113428" id="1" />
+      <edge source="85049260454" target="84868533109" id="2" />
+      <edge source="85049260454" target="84908341975" id="3" />
+      <edge source="85049260454" target="84928688667" id="4" />
+      <edge source="85049260454" target="84858019473" id="5" />
+      <edge source="85049260454" target="85033569480" id="6" />
+      <edge source="85049260454" target="0038377458" id="7" />
+      <edge source="85049260454" target="84962213598" id="8" />
+      <edge source="85049260454" target="84928671738" id="9" />
+      <edge source="85049260454" target="84977590709" id="10" />
+      <edge source="85049260454" target="84904754026" id="11" />
+      <edge source="85049260454" target="67650317516" id="12" />
+      <edge source="85190527557" target="85049260454" id="13" />
+      <edge source="85190527557" target="84937645181" id="14" />
+      <edge source="85190527557" target="77949915854" id="15" />
+      <edge source="85190527557" target="33644881153" id="16" />
+      <edge source="85190527557" target="84895906821" id="17" />
+      <edge source="85190527557" target="58449093408" id="18" />
+      <edge source="85190527557" target="85086000752" id="19" />
+      <edge source="85190527557" target="85060867887" id="20" />
+      <edge source="85190527557" target="0038928807" id="21" />
+      <edge source="85190527557" target="0026909840" id="22" />
+      <edge source="85190527557" target="84984950690" id="23" />
+      <edge source="85190527557" target="0036390924" id="24" />
+      <edge source="85190527557" target="0033592266" id="25" />
+    </edges>
+  </graph>
+</gexf>

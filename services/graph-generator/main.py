@@ -56,8 +56,8 @@ def main():
                 new_row = ';,;'.join(formatted_row) + '\n'
                 csv += new_row
             
-            # with open(f"{scopusId}-{depth}.csv", 'w') as f:
-            #     f.write(csv)
+            with open(f"cache/{scopusId}-{depth}.csv", 'w') as f:
+                f.write(csv)
             csv_byte = csv.encode('utf-8')
 
             # with open(f"{scopusId}-{depth}.csv", 'rb') as f:
