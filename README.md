@@ -113,3 +113,5 @@ streamlit run ./services/web/main.py
 - **YouTube Video**: [Watch the project overview](https://youtu.be/HKs9PnjKTgU)
 - **Google Drive Video**: [Download the presentation video](https://drive.google.com/file/d/1OskQcEO15LlRUjg391b4Ky-dPo1_lnDs/view?usp=sharing)
 - **Presentation Slides**: [View the slides](https://drive.google.com/file/d/1gf8eh-wFCF5MtY0olr7oFKcjujk43QZ2/view?usp=sharing)
+
+Just so you know, our Database IP might be changed. If ```main.thegoose.work``` didn't work, try to use the IP address instead by using DNS look-up
